@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-        name='test_application',
+        name='app',
         version='1.0',
         description='Description',
         auto='Alexey Galckin',
         author_email='AlexeyGalckin@gmail.com',
-        packages['application'],
+        packages=['src/app'],
         install_requires=[]
 )
